@@ -49,21 +49,18 @@ struct ContentView: View {
                     }
                 }
                 Spacer()
-                Button {
+                Button(action: {
                     togle.toggle()
-                } label: {
-                    Rectangle()
-                        .frame(height: 64)
-                        .clipShape(RoundedRectangle(cornerRadius: 24))
-                        .shadow(color: .black, radius: 4, x: 5, y: 5 )
-                        .opacity(0.8)
-                        .overlay {
-                            Text("Button")
-                                .font(.title)
-                                .foregroundStyle(.white)
-                        }
-                }
-
+                }, label: {
+                    Text("Press Me!")
+                        .font(.largeTitle)
+                        .foregroundColor(.white)
+                })
+                .padding()
+                .background(
+                    LinearGradient(gradient: Gradient(colors: [.purple, .pink]), startPoint: .topLeading, endPoint: .bottomTrailing)
+                )
+                .cornerRadius(10)
             }
             .padding()
         }
