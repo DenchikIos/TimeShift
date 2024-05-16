@@ -7,11 +7,9 @@
 
 import SwiftUI
 
-
 struct MainTabBar: View {
     
-@State var selectTab = "Home"
-    
+    @State var selectTab = "Home"
     let tabs = ["Home", "BroadCast", "Chat", "Profile"]
     
     init() {
@@ -41,8 +39,8 @@ struct MainTabBar: View {
             .frame(maxWidth: .infinity)
             .background(Color("MainBg"))
             .clipShape(Capsule())
+            .padding(5)
         }
-        .padding(.horizontal, 12)
     }
 }
 
