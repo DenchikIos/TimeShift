@@ -11,7 +11,7 @@ import SwiftUI
 struct TimeShiftApp: App {
     var body: some Scene {
         WindowGroup {
-            MainTabBar()
+          MainTabBar()
         }
     }
 }

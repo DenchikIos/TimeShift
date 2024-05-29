@@ -8,11 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CE4603A02BF0AF89009233E6 /* TabBarButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46039F2BF0AF89009233E6 /* TabBarButtons.swift */; };
+		CE4876032BFE29300009C70B /* PhotoGalleryStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4876022BFE29300009C70B /* PhotoGalleryStack.swift */; };
+		CE605BE12C009177000FC979 /* SelectionOfCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE605BE02C009177000FC979 /* SelectionOfCategories.swift */; };
+		CE60CD0A2C038B8F000C586B /* NewBroadcastsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60CD092C038B8F000C586B /* NewBroadcastsButton.swift */; };
+		CE6299882BFF458C00CB08D0 /* ScreensaverAndProfileAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6299872BFF458C00CB08D0 /* ScreensaverAndProfileAvatar.swift */; };
+		CE62998A2BFF465800CB08D0 /* NameStatusAndProfileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6299892BFF465800CB08D0 /* NameStatusAndProfileData.swift */; };
+		CE62998C2BFF471000CB08D0 /* ProfileLikesAndReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62998B2BFF471000CB08D0 /* ProfileLikesAndReviews.swift */; };
+		CE62998E2BFF487000CB08D0 /* WalletAndProfileSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62998D2BFF487000CB08D0 /* WalletAndProfileSchedule.swift */; };
+		CE6299902BFF48FA00CB08D0 /* UserContentTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62998F2BFF48FA00CB08D0 /* UserContentTabbar.swift */; };
+		CE6299932BFF579200CB08D0 /* NotificationSettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6299922BFF579200CB08D0 /* NotificationSettingsButton.swift */; };
 		CE6D47CF2BEF761200CA2897 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D47CE2BEF761200CA2897 /* MainTabBar.swift */; };
 		CE6D47E02BEF7BED00CA2897 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D47DF2BEF7BED00CA2897 /* ProfileView.swift */; };
 		CE6D47E22BEF7C3700CA2897 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D47E12BEF7C3700CA2897 /* ChatView.swift */; };
 		CE6D47E42BEF7C6200CA2897 /* BroadCastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D47E32BEF7C6200CA2897 /* BroadCastView.swift */; };
 		CE6D47E62BEF7C8100CA2897 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D47E52BEF7C8100CA2897 /* HomeView.swift */; };
+		CE71DFC22C0757E300A73461 /* SelectCategoryHomeOnButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71DFC12C0757E300A73461 /* SelectCategoryHomeOnButton.swift */; };
+		CE71DFC42C075A2400A73461 /* SelectCategoryHomeOffButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71DFC32C075A2400A73461 /* SelectCategoryHomeOffButton.swift */; };
 		CE85B60C2BE955AC00218394 /* TimeShiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85B60B2BE955AC00218394 /* TimeShiftApp.swift */; };
 		CE85B60E2BE955AC00218394 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE85B60D2BE955AC00218394 /* ContentView.swift */; };
 		CE85B6102BE955AE00218394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE85B60F2BE955AE00218394 /* Assets.xcassets */; };
@@ -21,11 +32,22 @@
 
 /* Begin PBXFileReference section */
 		CE46039F2BF0AF89009233E6 /* TabBarButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButtons.swift; sourceTree = "<group>"; };
+		CE4876022BFE29300009C70B /* PhotoGalleryStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryStack.swift; sourceTree = "<group>"; };
+		CE605BE02C009177000FC979 /* SelectionOfCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionOfCategories.swift; sourceTree = "<group>"; };
+		CE60CD092C038B8F000C586B /* NewBroadcastsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBroadcastsButton.swift; sourceTree = "<group>"; };
+		CE6299872BFF458C00CB08D0 /* ScreensaverAndProfileAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreensaverAndProfileAvatar.swift; sourceTree = "<group>"; };
+		CE6299892BFF465800CB08D0 /* NameStatusAndProfileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameStatusAndProfileData.swift; sourceTree = "<group>"; };
+		CE62998B2BFF471000CB08D0 /* ProfileLikesAndReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLikesAndReviews.swift; sourceTree = "<group>"; };
+		CE62998D2BFF487000CB08D0 /* WalletAndProfileSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletAndProfileSchedule.swift; sourceTree = "<group>"; };
+		CE62998F2BFF48FA00CB08D0 /* UserContentTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContentTabbar.swift; sourceTree = "<group>"; };
+		CE6299922BFF579200CB08D0 /* NotificationSettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingsButton.swift; sourceTree = "<group>"; };
 		CE6D47CE2BEF761200CA2897 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
 		CE6D47DF2BEF7BED00CA2897 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		CE6D47E12BEF7C3700CA2897 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		CE6D47E32BEF7C6200CA2897 /* BroadCastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadCastView.swift; sourceTree = "<group>"; };
 		CE6D47E52BEF7C8100CA2897 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CE71DFC12C0757E300A73461 /* SelectCategoryHomeOnButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategoryHomeOnButton.swift; sourceTree = "<group>"; };
+		CE71DFC32C075A2400A73461 /* SelectCategoryHomeOffButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCategoryHomeOffButton.swift; sourceTree = "<group>"; };
 		CE85B6082BE955AC00218394 /* TimeShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE85B60B2BE955AC00218394 /* TimeShiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeShiftApp.swift; sourceTree = "<group>"; };
 		CE85B60D2BE955AC00218394 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,9 +69,47 @@
 		CE46039C2BF0AE30009233E6 /* BazarUiKit */ = {
 			isa = PBXGroup;
 			children = (
-				CE46039F2BF0AF89009233E6 /* TabBarButtons.swift */,
+				CE71DFC72C076B3200A73461 /* HomeView */,
+				CE71DFC62C076B0A00A73461 /* TabBar */,
 			);
 			path = BazarUiKit;
+			sourceTree = "<group>";
+		};
+		CE4876012BFE28B80009C70B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CE4876022BFE29300009C70B /* PhotoGalleryStack.swift */,
+				CE6299872BFF458C00CB08D0 /* ScreensaverAndProfileAvatar.swift */,
+				CE62998F2BFF48FA00CB08D0 /* UserContentTabbar.swift */,
+				CE62998B2BFF471000CB08D0 /* ProfileLikesAndReviews.swift */,
+				CE62998D2BFF487000CB08D0 /* WalletAndProfileSchedule.swift */,
+				CE6299892BFF465800CB08D0 /* NameStatusAndProfileData.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CE4876042BFE2FC50009C70B /* PhotoGalleryStackService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PhotoGalleryStackService;
+			sourceTree = "<group>";
+		};
+		CE4876072BFE37370009C70B /* PhotoGalleryStackService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PhotoGalleryStackService;
+			sourceTree = "<group>";
+		};
+		CE6299912BFF573500CB08D0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CE6299922BFF579200CB08D0 /* NotificationSettingsButton.swift */,
+				CE605BE02C009177000FC979 /* SelectionOfCategories.swift */,
+				CE60CD092C038B8F000C586B /* NewBroadcastsButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		CE6D47D02BEF769300CA2897 /* View */ = {
@@ -89,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				CE6D47E52BEF7C8100CA2897 /* HomeView.swift */,
+				CE6299912BFF573500CB08D0 /* Components */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -113,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				CE6D47DF2BEF7BED00CA2897 /* ProfileView.swift */,
+				CE4876012BFE28B80009C70B /* Components */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -120,6 +182,7 @@
 		CE6D47D72BEF7AE300CA2897 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				CE4876072BFE37370009C70B /* PhotoGalleryStackService */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -169,6 +232,7 @@
 		CE6D47DE2BEF7BA100CA2897 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				CE4876042BFE2FC50009C70B /* PhotoGalleryStackService */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -181,6 +245,31 @@
 				CE6D47CE2BEF761200CA2897 /* MainTabBar.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		CE71DFC62C076B0A00A73461 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CE46039F2BF0AF89009233E6 /* TabBarButtons.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CE71DFC72C076B3200A73461 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				CE71DFC82C076B4300A73461 /* SelectCategory */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		CE71DFC82C076B4300A73461 /* SelectCategory */ = {
+			isa = PBXGroup;
+			children = (
+				CE71DFC12C0757E300A73461 /* SelectCategoryHomeOnButton.swift */,
+				CE71DFC32C075A2400A73461 /* SelectCategoryHomeOffButton.swift */,
+			);
+			path = SelectCategory;
 			sourceTree = "<group>";
 		};
 		CE85B5FF2BE955AC00218394 = {
@@ -291,14 +380,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE60CD0A2C038B8F000C586B /* NewBroadcastsButton.swift in Sources */,
 				CE6D47E02BEF7BED00CA2897 /* ProfileView.swift in Sources */,
 				CE6D47E62BEF7C8100CA2897 /* HomeView.swift in Sources */,
+				CE6299902BFF48FA00CB08D0 /* UserContentTabbar.swift in Sources */,
 				CE4603A02BF0AF89009233E6 /* TabBarButtons.swift in Sources */,
+				CE71DFC42C075A2400A73461 /* SelectCategoryHomeOffButton.swift in Sources */,
 				CE6D47CF2BEF761200CA2897 /* MainTabBar.swift in Sources */,
+				CE62998C2BFF471000CB08D0 /* ProfileLikesAndReviews.swift in Sources */,
 				CE6D47E42BEF7C6200CA2897 /* BroadCastView.swift in Sources */,
+				CE71DFC22C0757E300A73461 /* SelectCategoryHomeOnButton.swift in Sources */,
 				CE6D47E22BEF7C3700CA2897 /* ChatView.swift in Sources */,
+				CE605BE12C009177000FC979 /* SelectionOfCategories.swift in Sources */,
+				CE6299882BFF458C00CB08D0 /* ScreensaverAndProfileAvatar.swift in Sources */,
 				CE85B60E2BE955AC00218394 /* ContentView.swift in Sources */,
 				CE85B60C2BE955AC00218394 /* TimeShiftApp.swift in Sources */,
+				CE62998A2BFF465800CB08D0 /* NameStatusAndProfileData.swift in Sources */,
+				CE62998E2BFF487000CB08D0 /* WalletAndProfileSchedule.swift in Sources */,
+				CE6299932BFF579200CB08D0 /* NotificationSettingsButton.swift in Sources */,
+				CE4876032BFE29300009C70B /* PhotoGalleryStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +534,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +563,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
