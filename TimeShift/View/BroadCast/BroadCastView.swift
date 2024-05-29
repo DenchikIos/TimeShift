@@ -9,7 +9,16 @@ import SwiftUI
 
 struct BroadCastView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color("SolidBg")
+                .opacity(0.2)
+                .edgesIgnoringSafeArea(.all)
+            ScrollView(.vertical) {
+
+            }.refreshable {
+                
+            }
+        }
     }
 }
 

@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct NewBroadcastsButton: View {
+    private var gridItems = [GridItem(.flexible())]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HStack {
+                Text("News")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                Spacer()
+            }
+            LazyVGrid(columns: gridItems) {
+                ForEach(0..<33) { _ in
+                    Color("SolidBg")
+                        .frame(height: 400)
+                }
+            }
+        }.padding(.horizontal, 10)
     }
 }
 

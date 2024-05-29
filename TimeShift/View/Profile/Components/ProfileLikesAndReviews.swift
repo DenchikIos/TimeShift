@@ -9,7 +9,55 @@ import SwiftUI
 
 struct ProfileLikesAndReviews: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Button {
+                
+            } label: {
+                VStack{
+                    Text("567")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.black)
+                        .shadow(color: Color("MainBg"), radius: 1, x: 2, y: 2)
+                    Text("Followers")
+                        .foregroundColor(Color(.gray))
+                        .font(.callout)
+                }
+            }
+            .padding(.horizontal, 20)
+            
+            Button {
+                
+            } label: {
+                VStack{
+                    Text("567")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.black)
+                        .shadow(color: Color("MainBg"), radius: 1, x: 2, y: 2)
+                    Text("Following")
+                        .foregroundColor(Color(.gray))
+                        .font(.callout)
+                }
+            }
+            .padding(.horizontal, 20)
+            
+            Button {
+                
+            } label: {
+                VStack{
+                    Text("567")
+                        .font(.title)
+                        .fontWeight(.semibold)
+                        .foregroundColor(.black)
+                        .shadow(color: Color("MainBg"), radius: 1, x: 2, y: 2)
+                    Text("Reviews")
+                        .foregroundColor(Color(.gray))
+                        .font(.callout)
+                }
+            }
+            .padding(.horizontal, 20)
+        }
     }
 }
 

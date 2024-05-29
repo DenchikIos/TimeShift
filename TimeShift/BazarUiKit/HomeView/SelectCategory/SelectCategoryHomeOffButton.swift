@@ -8,11 +8,9 @@
 import SwiftUI
 
 struct SelectCategoryHomeOffButton: View {
-    
     let title: String
     let image: String
     let action: () -> ()
-    
     
     var body: some View {
         Button {

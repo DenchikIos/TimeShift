@@ -9,7 +9,29 @@ import SwiftUI
 
 struct NameStatusAndProfileData: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Denis Poddubnyy")
+            .padding()
+            .offset(x: 0, y: 50)
+            .font(.largeTitle)
+            .fontWeight(.semibold)
+            .shadow(color: Color("MainBg"), radius: 1, x: 2, y: 2)
+        HStack {
+            Text("ppppppppppppppveovnenvrkjnveivjneirnveinveionvepovneovnepocwdvsdvswdvwdvwdsdcvwdvwdvsdvswvwdvwvwdvwdvswdvwdvswdvwdvwdvwvwdvwdvwvwdvwvwvdwvdwdvdwvwsdv")
+                .lineLimit(2)
+                .multilineTextAlignment(.center)
+                .foregroundColor(Color(.gray))
+                .font(.callout)
+            Button {
+                
+            } label: {
+                Image(systemName: "filemenu.and.cursorarrow")
+                    .font(.title3)
+                    .padding(.top)
+                    .foregroundColor(Color("GoldBg"))
+                    .shadow(color: Color("MainBg"), radius: 0.5, x: 1, y: 1)
+            }
+        }
+        .padding()
     }
 }
 

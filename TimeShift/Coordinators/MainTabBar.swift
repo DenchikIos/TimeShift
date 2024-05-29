@@ -35,11 +35,11 @@ struct MainTabBar: View {
                     Spacer()
                 }
             }
-            .padding(.vertical, 15)
+            .padding(.vertical, 12)
             .frame(maxWidth: .infinity)
             .background(Color("MainBg"))
             .clipShape(Capsule())
-            .padding(5)
+            .padding(.horizontal, 5)
         }
     }
 }
